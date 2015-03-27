@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+
+
+    <div id="Squar" style="background: blue; height: 80px; width: 80px; position: absolute;"></div>
+    <script>
+        var start = null;
+        var element = document.getElementById("Squar");
+        element.addEventListener("click", evenetHandler);
+        
+        function evenetHandler() {
+            window.requestAnimationFrame(step);
+        };
+
+        function step(timestamp) {
+            if (!start) start = timestamp;
+            var progress = timestamp - start;
+            var pathLength = Math.sqrt(window.innerHeight * window.innerHeight + window.innerWidth * window.innerWidth);
+            element.style.left = (progress / 4.3) + "px";
+            element.style.top = (window.innerHeight / window.innerWidth) * (progress / 4.3) + "px";
+            if (progress <= 5000) {
+                window.requestAnimationFrame(step);
+            }
+
+        }
+    </script>
+</body>
+</html>
