@@ -1,0 +1,129 @@
+
+body {
+    background-color: #333333;
+    
+}
+
+#header {
+    background-image: url('../img/dark_stripes_@2X.png');
+    width: 960px;
+    color: #FFFFFF;
+    padding-left: 125px;
+    padding-right: 125px;
+    border: 8px dashed #000080;
+    margin-right: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    overflow: auto;
+    background-repeat: repeat;
+    border-radius:10px 10px;
+
+    
+
+}
+#welcome {
+    text-align: center;
+    font-family: 'Snap ITC';
+}
+#siteTitle {
+    
+    text-align: center;
+    font-family: 'Snap ITC';
+}
+#article {
+    background-image: url('../img/dark_stripes_@2X.png');
+    width: 960px;
+    color: #FFFFFF;
+    padding-left: 125px;
+    padding-right: 125px;
+    border: 8px dashed #000080;
+    margin-right: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    overflow: auto;
+    background-repeat: repeat;
+    border-radius:10px 10px;
+}
+p img {
+    width: 400px;
+    padding-right: 110px;
+}
+table h1 {
+    font-size: x-large;
+    font-family: 'B Elham';
+    color: #FF0000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.status {
+    width: 632px;
+    height: 135px;
+    font-family: 'B Nazanin';
+    background-image: url('../img/dark_stripes_@2X.png');
+    color: #FFFFFF;
+    border: 8px groove green;
+    text-align:right;
+    border-radius:10px 10px;
+}
+.date {
+    font-family: 'B Nazanin';
+    color: red;
+    border: 1px;
+    text-align: right;
+    margin-right: 600px;
+
+}
+.statusTitle {
+    font-family: 'B Elham';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: x-large;
+}
+#information {
+    width: 320px;
+    height:572px;
+    margin-left: 0px;
+    padding: 0px;
+    border: 8px groove green;
+    text-align:right;
+    border-radius:10px 10px;
+    float: right;
+    
+
+}
+#downloadLink {
+    width: 320px;
+    height: 400px;
+    margin-left: 0px;
+    padding: 0px;
+    border: 8px groove green;
+    text-align: right;
+    border-radius: 10px 10px;
+    float: right;
+    
+}
+a:link {
+    text-decoration:none;
+    color:white;
+    
+}
+a:visited {
+    
+    text-decoration:none;
+    color:white;
+}
+a:hover {
+    
+    text-decoration:none;
+    color:red;
+}
+#login {
+    border: 8px groove green;
+    width:300px;
+    height:160px;
+    margin-left: 640px;
+    margin-top:400px;
+    border-radius: 10px 10px;
+    
+}
