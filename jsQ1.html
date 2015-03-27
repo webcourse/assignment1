@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+   <input  type="text"/>
+    <script>
+        var field = document.querySelector("input");
+        field.addEventListener("keypress",onkeypress = isAllowed);
+        function isAllowed(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode === 65 || charCode === 85 || charCode === 79 || charCode === 67 || charCode === 78)
+                return false;
+
+            return true;
+        }
+    </script>
+</body>
+</html>
